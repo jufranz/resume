@@ -45,8 +45,11 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-
 \documentclass[]{deedy-resume}
+\usepackage{enumitem}
+
+\newlist{deflist}{description}{2}
+\setlist[deflist]{labelwidth=1.8cm,leftmargin=!,parsep=0pt,itemsep=1pt}
 
 \begin{document}
 
@@ -56,8 +59,8 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \namesection{Joshua}{Franz}{
-1587 Beal Ave. Apt 11, Ann Arbor, MI 48105 \\
-\href{mailto:jufranz@umich.edu}{jufranz@umich.edu} | 616.594.0107
+1214 Washtenaw Court, Apt 2, Ann Arbor, MI 48104 \\
+\href{mailto:jufranz@umich.edu}{jufranz@umich.edu} | 616.566.2375
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -76,10 +79,10 @@
 
 \subsection{University of Michigan}
 \descript{BS in Electrical Engineering}
-\location{Expected Dec 2015 | Ann Arbor, MI} 
+\location{Expected May 2016 | Ann Arbor, MI} 
 College of Engineering \\
 Dean's List (All Semesters) \\
-Cum. GPA: 3.922 / 4.0 \\
+Cum. GPA: 3.87 / 4.00 \\
 \sectionsep
 
 
@@ -88,21 +91,21 @@ Cum. GPA: 3.922 / 4.0 \\
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Coursework}
-\subsection{Completed}
-\textbf{EECS320} - Intro to Semiconductor Devices \\
-\textbf{EECS370} - Intro to Computer Organization \\
-\textbf{EECS280} - Programming and Introductory Data Structures \\
-\medskip
-\subsection{Current}
-\textbf{EECS373} - Design of Microprocessor-Based Systems \\
-\textbf{EECS418} - Power Electronics \\
-\textbf{EECS312} - Digital Integrated Circuits \\
-\medskip
-\subsection{Future}
-\textbf{EECS473} - Advanced Embedded Systems \\
-\textbf{EECS427} - VLSI Design \\
-
-\sectionsep
+\begin{deflist}
+\item[EECS311 -]Electronic Circuits
+\item[EECS312 -]Digital Integrated Circuits
+\item[EECS373 -]Design of Microprocessor Based Systems
+\item[EECS473 -]Advanced Embedded Systems
+\item[EECS418 -]Power Electronics
+\item[EECS470 -]Computer Architecture
+\end{deflist}
+%\textbf{EECS311} - Electronic Circuits \\
+%\textbf{EECS312} - Digital Integrated Circuits \\
+%\textbf{EECS373} - Design of Microprocessor- Based Systems \\
+%\textbf{EECS473} - Advanced Embedded Systems \\
+%\textbf{EECS418} - Power Electronics \\
+%\textbf{EECS470} - Computer Architecture \\
+%\sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     SKILLS
@@ -110,28 +113,48 @@ Cum. GPA: 3.922 / 4.0 \\
 
 \section{Skills}
 \subsection{System Design}
-\textbullet{} Block Diagram Creation \\
-\textbullet{} Component Selection \\
-\textbullet{} Power Analysis \\
+\begin{itemize}[leftmargin=*,nosep]
+\item Block Diagram Creation
+\item Component Selection
+\item Power Analysis
+\end{itemize}
 \bigskip
 \subsection{PCB Design}
-\textbullet{} Schematic Capture \\
-\textbullet{} Board Layout \\
-\textbullet{} Component Library Management \\
-\textbullet{} SMPS Layout \\
+\begin{itemize}[leftmargin=*,nosep]
+\item Schematic Capture
+\item Board Layout
+\item Component Library Management
+\item SMPS Design and Layout
+\end{itemize}
 \bigskip
 \subsection{Software Development}
-\textbullet{} Embedded Programming \\
-\textbullet{} Systems Programming \\
-\textbullet{} Mobile Applications \\
-\textbullet{} Driver Development \\
-\textbullet{} Scripting \\
+\begin{itemize}[leftmargin=*,nosep]
+\item Embedded Development
+%\item Systems Programming
+\item Mobile Applications
+\item Driver Development
+\item Scripting
+\end{itemize}
 \medskip
 \descript{Languages}
-C \textbullet{} C++ \textbullet{} Java \textbullet{} Python \textbullet{} Objective-C \textbullet{} .NET \textbullet{} Assembly \textbullet{} Verilog \textbullet{} HTML \textbullet{} MATLAB \\
+C \textbullet{} C++ \textbullet{} Java \textbullet{} Python \textbullet{} Objective-C \textbullet{} Verilog \textbullet{} MATLAB \\
 \medskip
 \descript{Software}
-Git \textbullet{} \LaTeX \textbullet{} Eclipse \textbullet{} Vim \textbullet{} Bash
+EAGLE \textbullet{} Cadence \textbullet{} LTSpice \textbullet{} Git \textbullet{} \LaTeX \textbullet{} Vim \textbullet{} Bash 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     AWARDS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Awards}
+\begin{itemize}[leftmargin=*,nosep]
+\item Boy Scouts of America – Eagle Scout Award
+\item Member of the winning team of the 2012 MHacks:Impact Hackathon
+\end{itemize}
+%\textbullet{} Boy Scouts of America – Eagle Scout Award \\
+%\textbullet{} Member of the winning team of the 2012 MHacks:Impact Hackathon \\
+%\textbullet{} Junior of the Year and Senior of the Year from the HCHS Mathematics
+\sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
@@ -149,13 +172,24 @@ Git \textbullet{} \LaTeX \textbullet{} Eclipse \textbullet{} Vim \textbullet{} B
 
 \section{Work Experience and Research}
 
+\runsubsection{Apple Inc.}
+\descript{| Electrical Engineering Intern }
+\location{January 2015 – Present | Cupertino, CA / Remote}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Designed embedded systems for internal research group
+\item Created Verilog project to be synthesized and implemented on FPGA
+\item Developed software for quality assurance testing
+\end{tightemize}
+\sectionsep
+
 \runsubsection{A2B Bikeshare}
 \descript{| Electrical Design Engineer }
 \location{January 2014 – Sep 2014 | Ann Arbor, MI}
-\vspace{\topsep} % Hacky fix for awkward extra vertical space
-\begin{tightemize}\item Independently designed a PCB for an Android system
+\begin{tightemize}
+\item Independently designed a PCB for an Android-based Smart Bike
 \item Wrote Linux kernel drivers for touchscreen and peripheral features
-\item Performed power analysis on Android OS to find and fix major power issues
+\item Performed power analysis on Android OS to find and fix power issues
 \end{tightemize}
 \sectionsep
 
@@ -163,10 +197,10 @@ Git \textbullet{} \LaTeX \textbullet{} Eclipse \textbullet{} Vim \textbullet{} B
 \descript{| Electrical Design Engineering Intern }
 \location{April 2011 – August 2012 | Zeeland, MI}
 \begin{tightemize}
-\item Supported Design Engineers in design process
-\item Created Test and Measurement tools for test group and the design lab
+\item Created Test and Measurement tools for measuring LCD flicker
 \item Developed EDA backup utility to ensure design archive safety
-\item Assisted in designing LED drive circuitry for blind spot indicators\end{tightemize}
+\item Assisted in designing LED drive circuitry for blind spot indicators
+\end{tightemize}
 \sectionsep
 
 \runsubsection{APRIL Laboratory}
@@ -175,7 +209,8 @@ Git \textbullet{} \LaTeX \textbullet{} Eclipse \textbullet{} Vim \textbullet{} B
 \begin{tightemize}
 \item Researched three-dimensional path planning algorithms
 \item Implemented A* and wavefront algorithms for aerial vehicle path planning
-\item Created original algorithm with improved time efficiency compared to 3D wavefront search\end{tightemize}
+\item Created original algorithm with improved time efficiency compared to 3D wavefront search
+\end{tightemize}
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -214,15 +249,6 @@ Git \textbullet{} \LaTeX \textbullet{} Eclipse \textbullet{} Vim \textbullet{} B
 \end{tightemize}
 \sectionsep
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     AWARDS
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{Awards}
-\textbullet{} Boy Scouts of America – Eagle Scout Award \\
-\textbullet{} Member of the winning team of the 2012 MHacks:Impact Hackathon \\
-\textbullet{} Junior of the Year and Senior of the Year from the HCHS Mathematics
-\sectionsep
 
 \end{minipage} 
 \end{document}  \documentclass[]{article}

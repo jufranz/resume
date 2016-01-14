@@ -1,3 +1,4 @@
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Deedy - One Page Two Column Resume
 % LaTeX Template
@@ -51,18 +52,12 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
-%     LAST UPDATED DATE
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\lastupdated
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
 %     TITLE NAME
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\namesection{Debarghya}{Das}{ \urlstyle{same}\url{http://debarghyadas.com} \\
-\href{mailto:dd367@cornell.edu}{dd367@cornell.edu} | 607.379.5733
+\namesection{Joshua}{Franz}{
+1587 Beal Ave. Apt 11, Ann Arbor, MI 48105 \\
+\href{mailto:jufranz@umich.edu}{jufranz@umich.edu} | 616.594.0107
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -79,58 +74,34 @@
 
 \section{Education} 
 
-\subsection{Cornell University}
-\descript{MEng in Computer Science}
-\location{Expected Dec 2014 | Ithaca, NY \\ Cum. GPA: N/A}
-\sectionsep
-
-
-\descript{BS in Computer Science}
-\location{Expected May 2014 | Ithaca, NY}
-Conc. in Software Engineering \\
+\subsection{University of Michigan}
+\descript{BS in Electrical Engineering}
+\location{Expected Dec 2015 | Ann Arbor, MI} 
 College of Engineering \\
 Dean's List (All Semesters) \\
-\location{ Cum. GPA: 3.92 / 4.0 \\
-Major GPA: 3.94 / 4.0}
+Cum. GPA: 3.922 / 4.0 \\
 \sectionsep
 
-\subsection{La Martiniere for Boys}
-\location{Grad. May 2011|  Kolkata, India}
-\sectionsep
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     LINKS
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{Links} 
-Github:// \href{https://github.com/deedydas}{\bf deedydas} \\
-LinkedIn://  \href{https://www.linkedin.com/in/debarghyadas}{\bf debarghyadas} \\
-YouTube://  \href{https://www.youtube.com/user/DeedyDash007}{\bf DeedyDash007} \\
-Twitter://  \href{https://twitter.com/debarghya_das}{\bf @debarghya\_das} \\
-Quora://  \href{https://www.quora.com/Debarghya-Das}{\bf Debarghya-Das}
-\sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     COURSEWORK
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Coursework}
-\subsection{Graduate}
-Advanced Machine Learning \\
-Open Source Software Engineering \\
-Advanced Interactive Graphics \\
-Compilers + Practicum \\
-Cloud Computing \\
-\sectionsep
+\subsection{Completed}
+\textbf{EECS320} - Intro to Semiconductor Devices \\
+\textbf{EECS370} - Intro to Computer Organization \\
+\textbf{EECS280} - Programming and Introductory Data Structures \\
+\medskip
+\subsection{Current}
+\textbf{EECS373} - Design of Microprocessor-Based Systems \\
+\textbf{EECS418} - Power Electronics \\
+\textbf{EECS312} - Digital Integrated Circuits \\
+\medskip
+\subsection{Future}
+\textbf{EECS473} - Advanced Embedded Systems \\
+\textbf{EECS427} - VLSI Design \\
 
-\subsection{Undergraduate}
-Information Retrieval \\
-Operating Systems \\
-Artificial Intelligence + Practicum \\
-Functional Programming \\
-Computer Graphics + Practicum \\
-{\footnotesize \textit{\textbf{(Research Asst. \& Teaching Asst) }}} \\
-Unix Tools and Scripting \\
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -138,15 +109,29 @@ Unix Tools and Scripting \\
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Skills}
-\subsection{Programming}
-\location{Over 5000 lines:}
-Java \textbullet{}   Shell \textbullet{} JavaScript \textbullet{} Matlab \\
-OCaml \textbullet{} Python \textbullet{} Rails \textbullet{} \LaTeX\ \\ 
-\location{Over 1000 lines:}
-C \textbullet{} C++ \textbullet{} CSS \textbullet{} PHP \textbullet{} Assembly \\
-\location{Familiar:}
-AS3 \textbullet{} iOS \textbullet{} Android \textbullet{} MySQL
-\sectionsep
+\subsection{System Design}
+\textbullet{} Block Diagram Creation \\
+\textbullet{} Component Selection \\
+\textbullet{} Power Analysis \\
+\bigskip
+\subsection{PCB Design}
+\textbullet{} Schematic Capture \\
+\textbullet{} Board Layout \\
+\textbullet{} Component Library Management \\
+\textbullet{} SMPS Layout \\
+\bigskip
+\subsection{Software Development}
+\textbullet{} Embedded Programming \\
+\textbullet{} Systems Programming \\
+\textbullet{} Mobile Applications \\
+\textbullet{} Driver Development \\
+\textbullet{} Scripting \\
+\medskip
+\descript{Languages}
+C \textbullet{} C++ \textbullet{} Java \textbullet{} Python \textbullet{} Objective-C \textbullet{} .NET \textbullet{} Assembly \textbullet{} Verilog \textbullet{} HTML \textbullet{} MATLAB \\
+\medskip
+\descript{Software}
+Git \textbullet{} \LaTeX \textbullet{} Eclipse \textbullet{} Vim \textbullet{} Bash
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
@@ -162,76 +147,81 @@ AS3 \textbullet{} iOS \textbullet{} Android \textbullet{} MySQL
 %     EXPERIENCE
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Experience}
+\section{Work Experience and Research}
 
-\runsubsection{Coursera}
-\descript{| KPCB Fellow + Software Engineering Intern }
-\location{Expected June 2014 – Sep 2014 | Mountain View, CA}
+\runsubsection{A2B Bikeshare}
+\descript{| Electrical Design Engineer }
+\location{January 2014 – Sep 2014 | Ann Arbor, MI}
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
-\begin{tightemize}\item 52 out of 2500 applicants chosen to be a KPCB Fellow 2014.
+\begin{tightemize}\item Independently designed a PCB for an Android system
+\item Wrote Linux kernel drivers for touchscreen and peripheral features
+\item Performed power analysis on Android OS to find and fix major power issues
 \end{tightemize}
 \sectionsep
 
-\runsubsection{Google}
-\descript{| Software Engineering Intern }
-\location{May 2013 – Aug 2013 | Mountain View, CA}
+\runsubsection{Gentex Corporation}
+\descript{| Electrical Design Engineering Intern }
+\location{April 2011 – August 2012 | Zeeland, MI}
 \begin{tightemize}
-\item Worked on the YouTube Captions team in primarily vanilla Javascript and Python to plan, design and develop the full stack implementation of a new framework to add and edit Automatic Speech Recognition captions.\item Created a backbone.js-like framework for the Captions editor.\item All code was reviewed, perfected, and pushed to production.\end{tightemize}
+\item Supported Design Engineers in design process
+\item Created Test and Measurement tools for test group and the design lab
+\item Developed EDA backup utility to ensure design archive safety
+\item Assisted in designing LED drive circuitry for blind spot indicators\end{tightemize}
 \sectionsep
 
-\runsubsection{Phabricator}
-\descript{| Open Source Contributor \& Team Leader}
-\location{Jan 2013 – May 2013 | Palo Alto, CA \& Ithaca, NY}
+\runsubsection{APRIL Laboratory}
+\descript{| Undergraduate Research Student}
+\location{September 2011 – May 2012 | Ann Arbor, MI}
 \begin{tightemize}
-\item Phabricator is used daily by Facebook, Dropbox, Quora, Asana and more.\item I created the Meme generator, the entire Lipsum application, ported Tokens to different apps, fixed many bugs and more in PHP and Shell.\item Led a team from MIT, Cornell, IC London and UHelsinki for the project.\end{tightemize}
+\item Researched three-dimensional path planning algorithms
+\item Implemented A* and wavefront algorithms for aerial vehicle path planning
+\item Created original algorithm with improved time efficiency compared to 3D wavefront search\end{tightemize}
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     RESEARCH
+%     EXTRACURRICULAR
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Research}
-\runsubsection{Cornell Robot Learning Lab}
-\descript{| Head Undergrad Research}
-\location{Jan 2014 – Present | Ithaca, NY}
-Worked with \textbf{\href{http://www.cs.cornell.edu/~ashesh/}{Ashesh Jain}} and \textbf{\href{http://www.cs.cornell.edu/~asaxena/}{Prof Ashutosh Saxena}} to create \textbf{PlanIt}, a tool which  learns from large scale user preference feedback to plan robot trajectories in human environments.  Publication submitted.
+\section{Extracurricular}
+\runsubsection{Michigan Autonomous Aerial Vehicles}
+\descript{| Team Member}
+\location{September 2011 – Present | Ann Arbor, MI}
+\begin{tightemize}
+\item Designed circuit board for an autonomous quadrotor helicopter
+\item Wrote software for navigation and path planning through unknown environments
+\item Taught electronics design skills to new team members to supplement their classroom knowledge
+\end{tightemize}
 \sectionsep
 
-\runsubsection{Cornell Phonetics Lab}
-\descript{| Head Undergraduate Researcher}
-\location{Mar 2012 – May 2013 | Ithaca, NY}
-Lead the development of \textbf{QuickTongue}, the first ever breakthrough tongue-controlled game with \textbf{\href{http://conf.ling.cornell.edu/~tilsen/}{Prof Sam Tilsen}} to aid in Linguistics research. Publication submitted.
+\runsubsection{University Housing}
+\descript{| Resident Advisor and Academic Advisor}
+\location{September 2013 – Present | Ann Arbor, MI}
+\begin{tightemize}
+\item Resident Advisor for Northwood Apartments for 2013-2014 academic year
+\item Peer Academic Success Specialist (PASS) for Northwood Apartments for 2014-2015 academic year
+\item Assisted residents in academic, professional, and personal development
+\item Planned community activities and social events for residents
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Chargii}
+\descript{| Co-Founder}
+\location{October 2012 – June 2013 | Ann Arbor, MI}
+\begin{tightemize}
+\item Founded startup with the goal to create smart power strips to eliminate standby energy waste
+\item Developed prototypes of IoT power-strip and smartphone applications
+\item Performed market research to develop company vision
+\end{tightemize}
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     AWARDS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Awards} 
-\begin{tabular}{rll}
-2014	     & top 52/2500  & KPCB Engineering Fellow\\
-2014	     & 2\textsuperscript{nd} most points  & Google Code Jam, Qualification Round\\
-2014	     & 1\textsuperscript{st}/50  & Microsoft Coding Competition, Cornell\\
-2013	     & National  & Jump Trading Challenge Finalist\\
-2013     & 7\textsuperscript{th}/120 & CS 3410 Cache Race Bot Tournament  \\
-2012     & 2\textsuperscript{nd}/150 & CS 3110 Biannual Intra-Class Bot Tournament \\
-2011     & National & Indian National Mathematics Olympiad (INMO) Finalist \\
-2010     & National & Comp. Soc. of India's National Programming Contest\\
-\end{tabular}
-\sectionsep
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     SOCIETIES
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{Societies} 
-
-\begin{tabular}{rll}
-2014 	& top 12\%ile    & Tau Beta Pi Engineering Honor Society\\
-2014   & National   & The Global Leadership and Education Forum (tGELF)\\
-2012   &  National  & Golden Key International Honor Society\\
-2012   &  National   & National Society of Collegiate Scholars\\
-\end{tabular}
+\section{Awards}
+\textbullet{} Boy Scouts of America – Eagle Scout Award \\
+\textbullet{} Member of the winning team of the 2012 MHacks:Impact Hackathon \\
+\textbullet{} Junior of the Year and Senior of the Year from the HCHS Mathematics
 \sectionsep
 
 \end{minipage} 
